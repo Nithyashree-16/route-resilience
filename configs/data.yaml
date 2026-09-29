@@ -1,0 +1,33 @@
+data:
+  root: data
+
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  metadata_dir: data/metadata
+
+  tile_size: 256
+  tile_stride: 192
+
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+
+  image:
+    channels: 3
+    normalize: true
+
+  mask:
+    classes:
+      background: 0
+      road: 1
+
+  occlusion:
+    enabled: true
+    types:
+      - tree_canopy
+      - vehicles
+      - shadows
+      - clouds
+      - urban_clutter
+      - illumination_variation

@@ -1,12 +1,14 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
+*.egg-info/
 
 # Virtual environments
 .venv/
 venv/
 env/
+
+# Environment variables
 .env
 
 # Jupyter
@@ -17,44 +19,27 @@ data/raw/
 data/interim/
 data/processed/
 
-# Large outputs
-data/outputs/
-outputs/
+# ML outputs
+models/
+checkpoints/
+weights/
+runs/
+logs/
 
-# Model checkpoints
-models/checkpoints/
-models/exported/
-
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# Raster/vector temporary files
+# Large geospatial files
 *.tif
 *.tiff
 *.jp2
-*.hdf
 *.h5
-*.gpkg
-*.pbf
-*.shp
-*.shx
-*.dbf
-*.geojson
-
-# Logs
-logs/
-*.log
+*.hdf
+*.hdf5
+*.zip
+*.tar
+*.gz
 
 # OS
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
-
-# Secrets
-.env
-*.pem
-
+# Streamlit
+.streamlit/secrets.toml

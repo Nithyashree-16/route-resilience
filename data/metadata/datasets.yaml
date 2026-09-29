@@ -1,0 +1,50 @@
+project:
+  name: route-resilience
+  version: "0.1"
+
+datasets:
+
+  spacenet:
+    purpose: road_segmentation
+    type: satellite_imagery
+    annotation: road_vectors_or_masks
+    status: planned
+
+  deepglobe:
+    purpose: road_segmentation
+    type: satellite_imagery
+    annotation: road_masks
+    status: planned
+
+  opensatmap:
+    purpose: road_segmentation
+    type: satellite_imagery
+    annotation: road_information
+    status: planned
+
+  sentinel2:
+    purpose:
+      - multispectral_context
+      - regional_generalization
+    resolution_m: 10
+    status: planned
+
+  resourcesat_liss4:
+    purpose:
+      - higher_resolution_indian_context
+      - urban_mapping
+    resolution_m: 5.8
+    status: planned
+
+  cartosat3:
+    purpose:
+      - high_resolution_evaluation
+      - hackathon_experimentation
+    status: planned
+
+  osm:
+    purpose:
+      - road_vector_reference
+      - graph_validation
+      - mask_generation
+    status: planned
