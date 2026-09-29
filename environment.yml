@@ -35,3 +35,7 @@ dependencies:
       - pyyaml
       - python-dotenv
       - rich
+      - torch
+      - torchvision
+      - torchaudio
+      - torch-geometric
