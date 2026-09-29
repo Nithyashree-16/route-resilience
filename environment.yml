@@ -1,0 +1,37 @@
+name: route-resilience
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - gdal
+  - rasterio
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rtree
+  - opencv
+  - scikit-image
+  - networkx
+  - osmnx
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - albumentations
+      - streamlit
+      - folium
+      - streamlit-folium
+      - pytest
+      - pytest-cov
+      - tqdm
+      - pyyaml
+      - python-dotenv
+      - rich

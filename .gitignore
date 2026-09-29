@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Large outputs
+data/outputs/
+outputs/
+
+# Model checkpoints
+models/checkpoints/
+models/exported/
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Raster/vector temporary files
+*.tif
+*.tiff
+*.jp2
+*.hdf
+*.h5
+*.gpkg
+*.pbf
+*.shp
+*.shx
+*.dbf
+*.geojson
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Secrets
+.env
+*.pem
+
