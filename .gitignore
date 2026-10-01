@@ -43,3 +43,5 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+.vscode/
+cache/

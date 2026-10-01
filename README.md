@@ -17,3 +17,34 @@ Satellite Imagery
 → Rerouting
 → Resilience Index
 → Interactive GIS Dashboard
+
+This directory contains local datasets used by the Route Resilience project.
+
+## Raw datasets
+
+- sentinel2/     - Sentinel-2 satellite imagery
+- resourcesat/   - Resourcesat LISS-IV imagery
+- cartosat/      - Cartosat imagery provided for challenge experimentation
+- spacenet/      - SpaceNet road extraction dataset
+- deepglobe/     - DeepGlobe road extraction dataset
+- opensatmap/    - OpenSatMap imagery/annotations
+- osm/           - OpenStreetMap road vectors
+
+## Interim data
+
+- tiles/         - geospatial image tiles
+- masks/         - rasterized road masks
+- occluded/      - synthetic occlusion samples
+
+## Processed data
+
+- train/
+- val/
+- test/
+
+## Metadata
+
+Dataset manifests, geographic extents, coordinate reference systems,
+tile indexes, and preprocessing metadata.
+
+Raw and processed datasets are intentionally excluded from Git.
